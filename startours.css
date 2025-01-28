@@ -44,6 +44,31 @@ img {
     margin: 10px;
 }
 
+.section {
+    margin-bottom: 30px; /* Add spacing between sections */
+}
+
+.section-header {
+    font-size: 20px; /* Customize the size of section headers */
+    margin-bottom: 15px; /* Add space below the header */
+    color: #444; /* Customize header text color */
+    text-align: center; /* Center-align the section headers */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column layout */
+    gap: 10px; /* Spacing between images */
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%; /* Ensure images fill the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop images appropriately if necessary */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
 
 
 
