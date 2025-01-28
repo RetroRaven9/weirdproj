@@ -100,14 +100,13 @@ const imageMap = {
     batuu: "images/batuu.jpg",
     startours2: "images/startours2.jpg",
     kefBir: "images/kefBir.jpg",
-    GateA: "images/aurebesh.png",
-    GateB: "images/aurebesh(1).png",
-    GateC: "images/aurebesh(2).png",
-    GateD: "images/aurebesh(3).png",
-    GateE: "imagesaurebesh(4).png",
-    GateF: "images/aurebesh(5).png"
+    GateA: "images/gateA.jpg",
+    GateB: "images/gateB.jpg",
+    GateC: "images/gateC.jpg",
+    GateD: "images/gateD.jpg",
+    GateE: "images/gateE.jpg",
+    GateF: "images/gateF.jpg",
 };
-   
 
 // function displayImages(sequence) {
 //     const outputDiv = document.getElementById("output");
