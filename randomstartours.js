@@ -8,7 +8,7 @@ const sequalFirst = ["jaku","kefBir"];
 const sequalTransmission = ["bb8", "maz", "poe", "lando"];
 const sequalSecond = ["exegol", "crait"];
 const sequalEnd = ["batuu", "startours2"];
-const agents = ["Tylar", "Mariana", "Tash", "Andy", "Giana", "Becca", "Elizabeth","Sam Cheese","Sam Shoe","Ian", "Gerry", "Megan", "Meghan", "Katie","Lauren","Molly","Rachel","Julissa","Donia","Alex","Hain","Carlos","Abby","Kinzie","Emma","Izzy","Mitsuno","Loo-ann","Lim","Zoe","Lilee","Riley1","Riley2","Tyler","Francesca","Evelynn","Erica","Taylor","Jake","Isabell","Marco","Kelly1","Kelly2","Lexi"];
+const agents = ["Tylar", "Mariana", "Tash", "Andy", "Gianna", "Becca", "Elizabeth","Sam Cheese","Sam Shoe","Ian", "Gerry", "Megan", "Meghan", "Katie","Lauren","Molly","Rachel","Julissa","Donia","Alex","Hain","Carlos","Abby","Kinzie","Emma","Izzy","Mitsuno","Loo-ann","Lim","Zoe","Lilee","Riley1","Riley2","Tyler","Francesca","Evelynn","Erica","Taylor","Jake","Isabell","Marco","Kelly1","Kelly2","Lexi","Vivan","Meera","ELine","Lindsey","Pedro","Sydney","Sydnee","Angie"];
 const gate = ["GateA", "GateB", "GateC","GateD", "GateE" ,"GateF"];
 
 // Function to pick a random item from a list
