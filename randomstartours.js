@@ -41,6 +41,8 @@ function sequal() {
     return sequence;
 }
 
+
+
 // Main start function
 function start() {
    
