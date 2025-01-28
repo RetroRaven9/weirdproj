@@ -1,6 +1,6 @@
 const originalStart = ["darthvader1", "darthVader2", "stormtroopers"];
 const originalFirst = ["hoth", "kashykk", "tatooine"];
-const originalTransmission = ["mandolorian", "andor", "ashoka", "yoda", "akbar", "leah"];
+const originalTransmission = ["mandolorian", "andor", "ashoka", "yoda", "akbar", "leia"];
 const originalSecond = ["naboo", "corosant", "deathstar", "whale"];
 const originalEnd = ["naboo1", "naboo2", "moncalimary", "corosant1", "corosant2", "startours"];
 const sequalStart = ["kylo", "firstorder"];
@@ -68,7 +68,7 @@ const imageMap = {
     ashoka: "images/ashoka.jpg",
     yoda: "images/yoda.jpg",
     akbar: "images/akbar.jpg",
-    leah: "images/leah.jpg",
+    leia: "images/leia.jpg",
     naboo: "images/naboo.jpg",
     corosant: "images/corosant.jpg",
     deathstar: "images/deathstar.jpg",
