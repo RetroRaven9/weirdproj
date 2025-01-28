@@ -90,7 +90,7 @@ const imageMap = {
     startours: "images/startours.jpg",
     kylo: "images/kylo.jpg",
     firstorder: "images/firstorder.jpg",
-    jaku: "images/jaku.jpg",
+    jaku: "images/Jaku.jpg",
     bb8: "images/bb8.jpg",
     maz: "images/maz.jpg",
     poe: "images/poe.jpg",
