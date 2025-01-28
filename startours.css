@@ -1,9 +1,12 @@
 /* General Styles */
 body {
+    background-image: url(images/pexels-instawally-176851.jpg);
+    background-size: cover;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
 
 h1 {
@@ -51,7 +54,7 @@ img {
 .section-header {
     font-size: 20px; /* Customize the size of section headers */
     margin-bottom: 15px; /* Add space below the header */
-    color: #444; /* Customize header text color */
+    color: #ffffff; /* Customize header text color */
     text-align: center; /* Center-align the section headers */
 }
 
@@ -67,7 +70,7 @@ img {
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop images appropriately if necessary */
     border-radius: 10px; /* Optional: Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Optional: Shadow effect */
 }
 
 

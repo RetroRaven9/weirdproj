@@ -163,12 +163,13 @@ function displayImages(sequence) {
 
     // Divide the sequence into sections and display them
     displaySection("Gates", [sequence[0]]);
-    displaySection("Rebel Spy", [sequence[1]]);
-    displaySection("Start", [sequence[2]]);
-    displaySection("First Destination", [sequence[3]]);
-    displaySection("Transmission", [sequence[4]]);
-    displaySection("Second Destination", [sequence[5]]);
-    displaySection("End", [sequence[6]]);
+    displaySection("Agent", [sequence[1]]);
+    displaySection("Rebel Spy", [sequence[2]]);
+    displaySection("Start", [sequence[3]]);
+    displaySection("First Destination", [sequence[4]]);
+    displaySection("Transmission", [sequence[5]]);
+    displaySection("Second Destination", [sequence[6]]);
+    displaySection("End", [sequence[7]]);
 }
 
 
@@ -176,6 +177,7 @@ function displayImages(sequence) {
 function original() {
     const sequence = [
         getRandomItem(gate),
+        getRandomItem(agents),
         getRandomItem(agents),
         getRandomItem(originalStart),
         getRandomItem(originalFirst),
@@ -189,6 +191,7 @@ function original() {
 function sequal() {
     const sequence = [
         getRandomItem(gate),
+        getRandomItem(agents),
         getRandomItem(agents),
         getRandomItem(sequalStart),
         getRandomItem(sequalFirst),
