@@ -90,7 +90,7 @@ const imageMap = {
     startours: "images/startours.jpg",
     kylo: "images/kylo.jpg",
     firstorder: "images/firstorder.jpg",
-    jaku: "images/Jaku.jpg",
+    jaku: "images/jaku.jpg",
     bb8: "images/bb8.jpg",
     maz: "images/maz.jpg",
     poe: "images/poe.jpg",
@@ -168,7 +168,7 @@ function displayImages(sequence) {
     displaySection("First Destination", [sequence[4]]);
     displaySection("Transmission", [sequence[5]]);
     displaySection("Second Destination", [sequence[6]]);
-    displaySection("End", [sequence[7]]);
+    
 }
 
 
@@ -182,7 +182,7 @@ function original() {
         getRandomItem(originalFirst),
         getRandomItem(originalTransmission),
         getRandomItem(originalSecond),
-        getRandomItem(originalEnd)
+        
     ];
     displayImages(sequence);
 }
@@ -196,7 +196,7 @@ function sequal() {
         getRandomItem(sequalFirst),
         getRandomItem(sequalTransmission),
         getRandomItem(sequalSecond),
-        getRandomItem(sequalEnd)
+        
     ];
     displayImages(sequence);
 }
