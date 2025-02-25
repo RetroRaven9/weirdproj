@@ -59,18 +59,32 @@ img {
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column layout */
-    gap: 10px; /* Spacing between images */
-    padding: 10px;
+    display: grid; /* Three columns for desktop */
+    gap: 15px; /* Space between images */
+    max-width: 600px; /* Set max width for the grid */
+    margin: 0 auto; /* Center the grid */
 }
+
+.image-grid .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for rows with two images */
+    grid-template-rows: 1fr 2fr;
+    gap: 15px; /* Space between images */
+}
+
+.image-grid img {
+    width: 100%; /* Ensure images take full width of the grid cell */
+    border-radius: 5px; /* Optional: add some border radius for aesthetics */
+}
+
+
+
+
 
 .image-container img {
     width: 100%; /* Ensure images fill the grid cell */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop images appropriately if necessary */
-    border-radius: 10px; /* Optional: Rounded corners */
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Optional: Shadow effect */
 }
 
 
